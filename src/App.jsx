@@ -93,6 +93,22 @@ function App() {
               required
                />
             </label>
+
+
+
+
+
+
+            <label htmlFor="">
+              Titolo:
+              <input type="text"
+              name="title"
+              value={formData.title}
+              onChange={handleChange}
+              required
+
+               />
+            </label>
           </form>
         </div>
  
