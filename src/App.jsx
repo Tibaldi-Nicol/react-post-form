@@ -80,6 +80,21 @@ function App() {
 
     <>
       <div>
+
+        <div className="form-container">
+          <h1>crea un nuovo post</h1>
+          <form onSubmit={handleSubmit}>
+            <label htmlFor="">
+              Autore:
+              <input type="text" 
+              name="author"
+              value={formData.author}
+              onChange={handleChange}
+              required
+               />
+            </label>
+          </form>
+        </div>
  
       </div>
     
