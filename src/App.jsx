@@ -109,6 +109,36 @@ function App() {
 
                />
             </label>
+
+
+            <label>
+            Testo del post:
+            <textarea
+            name="body"
+            value={formData.body}
+            onChange={handleChange}
+            required
+          />
+        </label>
+
+
+        <label>
+          <input
+            type="checkbox"
+            name="public"
+            checked={formData.public}
+            onChange={handleChange}
+            />
+             Rendi il post pubblico
+             </label>
+
+             <button type="submit">Invia</button>
+
+
+
+
+
+
           </form>
         </div>
  
